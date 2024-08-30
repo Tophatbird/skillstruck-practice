@@ -1,13 +1,16 @@
+# Automatic Numbers
+var1 = int(input("enter a number"))
+var2 = int(input("enter a number"))
+
+while var1 <=var2:
+    print(var1)
+    var1  += 1
+
+
 # Add the Numbers
-number_one = int(input("enter a number"))
-number_two = int(input("enter a number"))
-
-if number_one > number_two:
-    number_one, number_two = number_two, number_one
-
-total = 0
-
-for x in range(number_one, number_two + 1):
-  total += x
-  
-print(total)
+start = int(input("enter a number"))
+end = int(input("enter a number"))
+num = 0
+for i in range(start,end):
+    num = num + i
+print(num)

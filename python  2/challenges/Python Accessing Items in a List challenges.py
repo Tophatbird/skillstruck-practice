@@ -1,9 +1,9 @@
 #Multiply Center Number
-# my_list = [int(n) for n in input("Create a list of 9 numbers").split()]
+my_list = [int(n) for n in input("Create a list of 9 numbers").split()]
 
-# middle = my_list[4]
+middle = my_list[4]
 
-# result = middle * 100
+result = middle * 100
 
 # print(result)
 
